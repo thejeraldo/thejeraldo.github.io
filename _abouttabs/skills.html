@@ -1,12 +1,14 @@
 ---
 navId: skills
 title: Technical Skills
+order: 1
 isActive: active
 shouldShow: show
 ---
 
 <ul class="list-unstyled text-secondary">
-    {% for skill in site.skills %}
+    {% assign ordered_skills = site.skills | sort: "order" %}
+    {% for skill in ordered_skills %}
         <li class="mb-2 text-body">
             <span class="fw-bold text-body">{{ skill.title }}</span><br>
             {{ skill.content }}

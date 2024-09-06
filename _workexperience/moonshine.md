@@ -1,8 +1,8 @@
 ---
 position: iOS Developer
 company: Moonshine App
-start: July 2018
-end: May 2019
+start: 2018-07-01
+end: 2019-05-01
 country: Dubai, United Arab Emirates
 ---
 

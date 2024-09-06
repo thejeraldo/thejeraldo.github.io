@@ -54,10 +54,6 @@ plugins:
 
 collections:
   abouttabs:
-    order:
-      - skills.html
-      - workexperience.html
-      - education.html
   skills:
     order:
       - languages.md
@@ -71,14 +67,4 @@ collections:
       - project_management.md
       - web_dev.md
       - design.md
-
-
   workexperience:
-    order:
-      - getech.md
-      - moonshine.md
-      - acacus.md
-      - emaar.md
-      - one9ninety.md
-      - nesv.md
-      - advitor.md

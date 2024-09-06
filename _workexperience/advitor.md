@@ -1,8 +1,8 @@
 ---
 position: Mobile Developer
 company: The Advitor Limited
-start: June 2012
-end: August 2013
+start: 2012-06-01
+end: 2013-08-01
 country: Subic, Philippines
 ---
 

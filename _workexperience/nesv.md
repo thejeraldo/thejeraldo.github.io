@@ -1,8 +1,8 @@
 ---
 position: Software Developer
 company: Network Economic Service Ventures
-start: September 2013
-end: August 2014
+start: 2013-09-01
+end: 2014-08-01
 country: Subic, Philippines
 ---
 

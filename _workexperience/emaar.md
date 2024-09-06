@@ -1,8 +1,8 @@
 ---
 position: iOS Developer
 company: Emaar Technologies
-start: May 2018
-end: June 2018
+start: 2018-05-01
+end: 2018-06-01
 country: Dubai, United Arab Emirates
 ---
 

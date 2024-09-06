@@ -1,8 +1,8 @@
 ---
 position: Senior iOS Developer
 company: Acacus Technologies
-start: September 2015
-end: March 2018
+start: 2015-08-01
+end: 2018-03-01
 country: Dubai, United Arab Emirates
 ---
 

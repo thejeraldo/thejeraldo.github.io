@@ -1,13 +1,15 @@
 ---
 navId: work
 title: Work Experience
+order: 2
 ---
 
-{% for work in site.workexperience %}
+{% assign ordered_workexperience = site.workexperience | sort: "end" %}
+{% for work in ordered_workexperience reversed %}
     <div class="ps-2 text-body" style="border-left: 2px solid var(--bs-border-color);">
         <a href="" class="link-dark fw-bold">{{ work.company }}</a><br>
         {{ work.position }}<br>
-        <span class="text-body-secondary">{{ work.start }} - {{ work.end }}</span>
+        <span class="text-body-secondary">{{ work.start | date: "%B %Y" }} - {{ work.end | date: "%B %Y" }}</span>
         <br>
         <div class=" col-md-6 col-lg-6">
             {{ work.content }}

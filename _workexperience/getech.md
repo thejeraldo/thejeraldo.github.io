@@ -1,8 +1,8 @@
 ---
 position: Senior iOS Developer
 company: Golden Equator / Spectrum Global
-start: May 2019
-end: July 2024
+start: 2019-05-01
+end: 2024-07-01
 country: Singapore
 ---
 

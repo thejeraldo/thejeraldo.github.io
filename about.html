@@ -32,7 +32,8 @@ layout: default
         <nav>
             <!--tabs-->
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                {% for tab in site.abouttabs %}
+                {% assign ordered_tabs = site.abouttabs | sort: "order" %}
+                {% for tab in ordered_tabs %}
                 <button class="nav-link {{ tab.isActive }}" id="nav-{{ tab.navId }}-tab" data-bs-toggle="tab"
                     data-bs-target="#nav-{{ tab.navId }}" type="button" role="tab" aria-controls="nav-{{ tab.navId }}"
                     aria-selected="false">

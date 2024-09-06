@@ -1,8 +1,8 @@
 ---
 position: iOS and Android Developer
 company: One9ninety Pte Ltd
-start: October 2014
-end: August 2015
+start: 2014-10-01
+end: 2015-09-01
 country: Singapore
 ---
 
