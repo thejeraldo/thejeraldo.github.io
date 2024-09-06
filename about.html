@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="container-fluid mt-4 mx-2">
+    <div class="row col-md-6 col-lg-6 mb-2 mt-2">
+        <h3 class="fw-bold">
+            About Me
+        </h3>
+        <p class="lead">
+            I'm an iOS Developer working remotely from the Philippines.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit
+            anim id est laborum.
+        </p>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col">
+            <button type="button" class="btn btn-dark gy-5">Download my Resume</button>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <nav>
+            <!--tabs-->
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                {% for tab in site.abouttabs %}
+                <button class="nav-link {{ tab.isActive }}" id="nav-{{ tab.navId }}-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-{{ tab.navId }}" type="button" role="tab" aria-controls="nav-{{ tab.navId }}"
+                    aria-selected="false">
+                    {{ tab.title }}
+                </button>
+                {% endfor %}
+            </div>
+        </nav>
+
+        <!--contents-->
+        <div class="tab-content" id="nav-tabContent">
+            {% for tab in site.abouttabs %}
+            <div class="tab-pane {{ tab.shouldShow }} {{ tab.isActive }} fade mx-2 mt-2" id="nav-{{ tab.navId }}"
+                role="tabpanel" aria-labelledby="nav-{{ tab.navId }}-tab" tabindex="0">
+                {{ tab.content }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

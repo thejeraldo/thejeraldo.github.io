@@ -1,0 +1,17 @@
+---
+navId: work
+title: Work Experience
+---
+
+{% for work in site.workexperience %}
+    <div class="ps-2 text-body" style="border-left: 2px solid var(--bs-border-color);">
+        <a href="" class="link-dark fw-bold">{{ work.company }}</a><br>
+        {{ work.position }}<br>
+        <span class="text-body-secondary">{{ work.start }} - {{ work.end }}</span>
+        <br>
+        <div class=" col-md-6 col-lg-6">
+            {{ work.content }}
+        </div>
+        <br>
+    </div>
+{% endfor %}

@@ -51,3 +51,34 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  abouttabs:
+    order:
+      - skills.html
+      - workexperience.html
+      - education.html
+  skills:
+    order:
+      - languages.md
+      - ui_frameworks.md
+      - dependency_management.md
+      - testing_frameworks.md
+      - encryption.md
+      - database.md
+      - source_control.md
+      - cicd.md
+      - project_management.md
+      - web_dev.md
+      - design.md
+
+
+  workexperience:
+    order:
+      - getech.md
+      - moonshine.md
+      - acacus.md
+      - emaar.md
+      - one9ninety.md
+      - nesv.md
+      - advitor.md
