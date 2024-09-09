@@ -9,17 +9,20 @@ layout: default
             About Me
         </h3>
         <p class="lead">
-            I'm an iOS Developer working remotely from the Philippines.
+            I'm an iOS Developer based in the Philippines.
         </p>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit
-            anim id est laborum.
+            I started working on mobile apps way back in 2012, driven by the incredible potential of apps to transform everyday experiences. I’ve always had a strong intuition for tech, and diving into app development felt like a natural way to channel my passion for both design and innovation.
+        </p>
+        <p>
+            I most enjoy building apps in the sweet spot where design and engineering meet — where things not only look great but are also built with strong technical foundations.
+        </p>
+        <p>
+            When I'm not coding, I'm usually cooking, hanging out with my wife and kids, 
+            learning to play the guitar, or watching a my <span onclick="showTvShows()"><u>favorite shows</u></span>.
+            <span id="tv-shows" style="display: none;">
+                <em>The Office, Modern Family, The BigBang Theory, Brooklyn 99, What We Do in the Shadows</em>
+            </span>
         </p>
         {% include download_resume.html %}
     </div>
@@ -50,3 +53,9 @@ layout: default
         </nav>
     </div>
 </div>
+
+<script>
+    function showTvShows() {
+        document.getElementById("tv-shows").style.display = "block";
+    }
+</script>
