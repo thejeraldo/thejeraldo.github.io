@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!--portfolio-->
+<div class="row">
+    <div class="hero col-lg-8 mx-auto">
+        <h3 class="fw-bold">
+            Portfolio
+        </h3>
+        <p class="lead">
+            A showcase of my work across a variety of fields, including iOS, Android, and Web development
+        </p>
+    </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="row mx-5 text-center">
+            {% assign ordered_projects = site.projects | sort: "order" %}
+            {% for project in ordered_projects reversed %}
+                <div class="col-12 col-md-4 col-lg-4 col-xl-3 mb-4">
+                    <div>
+                        <img src="assets/images/{{ project.home-image }}" class="card-img-top">
+                        <p class="card-title mt-2 fw-bold">{{ project.title }}</p>
+                        <p class="card-text text-center">{{ project.caption }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
