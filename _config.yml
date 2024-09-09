@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thejeraldo
 github_username:  thejeraldo
+copyright: "© 2024 Jerald Abille · Philippines"
 
 # Build settings
 theme: minima
@@ -53,6 +54,7 @@ plugins:
 #   - vendor/ruby/
 
 collections:
+  projects:
   abouttabs:
   skills:
     order:
