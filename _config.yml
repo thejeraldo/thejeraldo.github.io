@@ -55,6 +55,7 @@ plugins:
 
 collections:
   projects:
+    output: true
   abouttabs:
   skills:
     order:

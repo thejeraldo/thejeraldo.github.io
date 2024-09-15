@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="hero col-lg-8 mx-auto">
+        <!--title-->
+        <h3 class="mb-0">
+            {{ page.title }}
+        </h3>
+        
+        <p class="small text-secondary">
+            {% for badge in page.badges %}
+                <span class="badge rounded-pill text-bg-dark">{{ badge }}</span>
+            {% endfor %}
+            {% if page.screenshots.size > 1 %}
+                {% if page.badges.size != 0 %}
+                    <br>
+                {% endif %}
+                <a href="#screenshots" class="small text-body">[screenshots]</a>
+            {% endif %}
+        </p>
+
+        <!--content-->
+        {{ content }}
+
+        <!--screenshots-->
+        {% if page.screenshots.size != 0 %}
+        <div id="screenshots" class="col-lg-12 mb-3">
+        {% for screenshot in page.screenshots %}
+        <a href="/assets/images/{{ screenshot }}"><img src="/assets/images/{{ screenshot }}" class="img-fluid mb-1" style="width: 150px;"></a>
+        {% endfor %}
+        </div>
+        {% endif %}
+
+        <!--other details-->
+        <p class="small">
+            Client/Company: <a href="{{ page.client.url }}" class="link-dark" target="_blank">
+                {{ page.client.name }}<sup style="font-size: 0.5rem;">↗</sup>
+            </a>
+        </p>
+
+        <!--links-->
+        {% if page.links %}
+        <p class="small">
+            Media:<br>
+            {% for page in page.links %}
+                <a href="{{ page }}" target="_blank">
+                    {{ page }}<sup style="font-size: 0.5rem;">↗</sup><br>
+                </a>    
+            {% endfor %}
+        </p>
+        {% endif %}
+
+        <!--download link-->
+        {% if page.appstore %}
+            <p>
+                <a href="{{ page.appstore }}" target="_blank"><img src="/assets/images/appstore.svg"></a>
+            </p>
+        {% endif %}
+    </div>
+</div>
