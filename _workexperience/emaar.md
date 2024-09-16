@@ -1,5 +1,5 @@
 ---
-position: "iOS Developer"
+position: "iOS Developer (1 month contract)"
 company: "Emaar Technologies"
 start: 2018-05-01
 end: 2018-06-01
@@ -7,4 +7,4 @@ country: "Dubai, United Arab Emirates"
 website: "https://www.emaartechnologies.com"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Designed and developed an enterprise iOS app for reporting and generating records.

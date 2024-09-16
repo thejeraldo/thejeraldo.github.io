@@ -7,4 +7,4 @@ country: "Singapore"
 website: "https://one9ninety.com/"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Built features and resolved issues for iOS, Android, and web apps while managing with interns and remote teams.

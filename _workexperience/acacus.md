@@ -7,4 +7,4 @@ country: "Dubai, United Arab Emirates"
 website: "http://www.acacusgroup.com"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Developed aviation apps for airlines like Etihad and Alitalia in collaboration with project managers and pilots.
