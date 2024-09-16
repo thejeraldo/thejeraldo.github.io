@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "Swish - Connecting Communities"
+order: 11
 caption: "Invite only social app for building vibrant communities within the workplace"
 home-image: "swish.png"
 client:

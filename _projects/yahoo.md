@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "Yahoo #DoYourY"
+order: 5
 caption: "A web page for Yahoo Singapore’s 2016 New Year Social Media Campaign"
 home-image: "yahoo.png"
 client:

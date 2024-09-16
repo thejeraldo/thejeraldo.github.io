@@ -42,7 +42,8 @@ layout: default
 <div class="row justify-content-center">
     <div class="col-lg-8">
         <div class="row mx-5 text-center">
-            {% for project in site.projects %}
+            {% assign ordered_projects = site.projects | sort: "order" %}
+            {% for project in ordered_projects reversed %}
                 <div class="col-12 col-md-4 col-lg-4 col-xl-3 mb-4">
                     <div>
                         <a href="{{ project.url }}">
