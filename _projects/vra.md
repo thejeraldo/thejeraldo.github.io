@@ -1,7 +1,6 @@
 ---
 layout: project
 title: "Visitor Registration App"
-order: 10
 caption: "Allows visitors at Spectrum Global, a co-working space in Singapore, to register upon arrival"
 home-image: "vra.png"
 client:

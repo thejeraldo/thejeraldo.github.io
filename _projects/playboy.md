@@ -1,7 +1,6 @@
 ---
 layout: project
 title: "Playboy Academy"
-order: 6
 caption: "A social networking app for fans of Playboy Fragrances that allows users to connect, chat, share and earn rewards"
 home-image: "playboy.png"
 client:

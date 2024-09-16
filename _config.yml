@@ -55,6 +55,17 @@ plugins:
 
 collections:
   projects:
+    order:
+      - swish.md
+      - vra.md
+      - moonshine.md
+      - peregrine.md
+      - emaar.md
+      - playboy.md
+      - yahoo.md
+      - landstar.md
+      - weespin.md
+      - loke.md
     output: true
   abouttabs:
   skills:

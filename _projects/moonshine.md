@@ -1,7 +1,6 @@
 ---
 layout: project
 title: "Moonshine - Nightlife Guide"
-order: 9
 caption: "Recognized as Dubai's Favourite App of 2019"
 home-image: "moonshine.png"
 client:

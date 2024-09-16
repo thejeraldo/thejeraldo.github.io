@@ -1,1 +1,8 @@
-TODO:
+<div class="mb-3 d-flex flex-column flex-md-row">
+    {% if page.previous %}
+    <a href="{{page.previous.url}}" class="link-dark mb-2 me-2 mb-md-0"><button type="button" class="btn btn-outline-dark btn-sm">Previous: {{ page.previous.title }}</button></a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{page.next.url}}" class="link-dark"><button type="button" class="btn btn-outline-dark btn-sm">Next: {{ page.next.title }}</button></a>
+    {% endif %}
+</div>
