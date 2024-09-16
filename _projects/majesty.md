@@ -5,7 +5,7 @@ title: "Majesty of All Under Heaven Hong Kong Museum"
 caption: "An app for a Hong Kong museum that features schedule and museum information"
 home-image: "majesty.png"
 client:
-    name: The Advitor Limited"
+    name: "The Advitor Limited"
     url: "https://advitor.com"
 badges:
     - "iOS"

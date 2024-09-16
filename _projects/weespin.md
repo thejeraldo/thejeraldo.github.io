@@ -18,10 +18,6 @@ links:
 
 WeeSPIN is a social media app centered around music discovery and sharing.
 
-<a href="https://www.pastemagazine.com/tech/app/weespin-app-review" target="_blank">
-https://www.pastemagazine.com/tech/app/weespin-app-review<sup style="font-size: 0.5rem;">↗</sup>
-</a>
-
 ###### Key Features
 - Search, collect and listen to music from Spotify and SoundCloud.
 - Discover people, locations, and sounds.

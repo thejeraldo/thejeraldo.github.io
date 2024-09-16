@@ -7,10 +7,9 @@ order: 2
 {% assign ordered_workexperience = site.workexperience | sort: "end" %}
 {% for work in ordered_workexperience reversed %}
     <div class="ps-2 text-body" style="border-left: 2px solid var(--bs-border-color);">
-        <a href="{{ work.website }}" target="_blank" class="link-dark fw-bold">
+        <a href="{{ work.website }}" class="link-dark fw-bold">
             {{ work.company }}
         </a>
-        <!--<sup style="font-size: 0.5rem">&#x2197;</sup>-->
         <br>
         {{ work.position }}
         <br>

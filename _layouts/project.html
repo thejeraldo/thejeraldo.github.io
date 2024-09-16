@@ -35,8 +35,9 @@ layout: default
 
         <!--other details-->
         <p class="small">
-            Client/Company: <a href="{{ page.client.url }}" class="link-dark" target="_blank">
-                {{ page.client.name }}<sup style="font-size: 0.5rem;">↗</sup>
+            Client/Company:<br>
+            <a href="{{ page.client.url }}" class="link-dark">
+                {{ page.client.name }}
             </a>
         </p>
 
@@ -45,8 +46,8 @@ layout: default
         <p class="small">
             Media:<br>
             {% for page in page.links %}
-                <a href="{{ page }}" target="_blank">
-                    {{ page }}<sup style="font-size: 0.5rem;">↗</sup><br>
+                <a href="{{ page }}"  class="link-dark">
+                    {{ page }}<br>
                 </a>    
             {% endfor %}
         </p>
@@ -55,7 +56,7 @@ layout: default
         <!--download link-->
         {% if page.appstore %}
             <p>
-                <a href="{{ page.appstore }}" target="_blank"><img src="/assets/images/appstore.svg"></a>
+                <a href="{{ page.appstore }}"><img src="/assets/images/appstore.svg"></a>
             </p>
         {% endif %}
     </div>
