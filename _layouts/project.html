@@ -28,7 +28,7 @@ layout: default
         {% if page.screenshots.size != 0 %}
         <div id="screenshots" class="col-lg-12 mb-3">
         {% for screenshot in page.screenshots %}
-        <a href="/assets/images/{{ screenshot }}"><img src="/assets/images/{{ screenshot }}" class="img-fluid mb-1" style="width: 150px;"></a>
+        <a href="/assets/images/{{ screenshot }}"><img src="/assets/images/{{ screenshot }}" alt="{{ screenshot }}" class="img-fluid mb-1" style="width: 150px;"></a>
         {% endfor %}
         </div>
         {% endif %}
@@ -56,7 +56,7 @@ layout: default
         <!--download link-->
         {% if page.appstore %}
             <p>
-                <a href="{{ page.appstore }}"><img src="/assets/images/appstore.svg"></a>
+                <a href="{{ page.appstore }}"><img src="/assets/images/appstore.svg" alt="Download on the AppStore"></a>
             </p>
         {% endif %}
     </div>
