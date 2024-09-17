@@ -46,10 +46,10 @@ layout: default
             {% for project in ordered_projects reversed %}
                 <div class="col-12 col-md-4 col-lg-4 col-xl-3 mb-4">
                     <div>
-                        <a href="{{ project.url }}">
+                        <a href="{{ project.url }}" class="text-hover-underline text-body">
                             <img src="assets/images/{{ project.home-image }}" class="card-img-top" alt="{{ project.title }}">
-                        </a>
                         <p class="card-title mt-2 fw-bold">{{ project.title }}</p>
+                        </a>
                         <p class="card-text text-center">{{ project.caption }}</p>
                     </div>
                 </div>

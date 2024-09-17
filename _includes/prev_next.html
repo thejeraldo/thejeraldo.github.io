@@ -4,7 +4,7 @@
   {% assign document = site[the_collection] %}
 {% endif %}
 
-{% for links in document %}
+{% for links in document | sort: "order" %}
   {% if links.title == page.title %}
     {% unless forloop.first %}
       {% assign prevurl = prev.url %}
