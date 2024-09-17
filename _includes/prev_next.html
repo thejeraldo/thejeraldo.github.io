@@ -1,8 +1,29 @@
+{% capture the_collection %}{{ page.collection }}{% endcapture %}
+
+{% if page.collection %}
+  {% assign document = site[the_collection] %}
+{% endif %}
+
+{% for links in document %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexttitle = next.title %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
 <div class="mb-3 d-flex flex-column flex-md-row">
-    {% if page.previous %}
-    <a href="{{page.previous.url}}" class="link-dark mb-2 me-2 mb-md-0"><button type="button" class="btn btn-outline-dark btn-sm">Previous: {{ page.previous.title }}</button></a>
-    {% endif %}
-    {% if page.next %}
-    <a href="{{page.next.url}}" class="link-dark"><button type="button" class="btn btn-outline-dark btn-sm">Next: {{ page.next.title }}</button></a>
-    {% endif %}
+{% if prevurl %}
+<a href="{{ prevurl }}" class="link-dark mb-2 me-2 mb-md-0"><button type="button" class="btn btn-outline-dark btn-sm">Previous: {{ prevtitle }}</button></a>
+{% endif %}
+{% if nexturl %}
+<a href="{{ nexturl }}" class="link-dark"><button type="button" class="btn btn-outline-dark btn-sm">Next: {{ nexttitle }}</button></a>
+{% endif %}
 </div>
