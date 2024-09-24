@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "Landstar"
+page_title: "Jerald Abille | Landstar"
 order: 4
 caption: "Provides easy access to status updates on loads in transit and visibility to freight bill details"
 home-image: "landstar.png"

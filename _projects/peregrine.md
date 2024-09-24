@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "Peregrine EFB"
+page_title: "Jerald Abille | Peregrine EFB"
 order: 8
 caption: "Electronic Flight Bag solution for flight crew and crew operations management"
 home-image: "efb.png"

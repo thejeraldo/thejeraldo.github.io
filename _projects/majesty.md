@@ -2,6 +2,7 @@
 layout: project
 order: 1
 title: "Hong Kong Museum App"
+page_title: "Jerald Abille | Hong Kong Museum App"
 caption: "An app for a Hong Kong museum that features schedule and museum information"
 home-image: "majesty.png"
 client:

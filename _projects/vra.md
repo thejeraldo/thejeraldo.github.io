@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "Visitor Registration App"
+page_title: "Jerald Abille | Visitor Registration App"
 order: 10
 caption: "Allows visitors at Spectrum Global, a co-working space in Singapore, to register upon arrival"
 home-image: "vra.png"

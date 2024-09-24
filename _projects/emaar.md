@@ -2,6 +2,7 @@
 layout: project
 order: 7
 title: "Tenant Exit Inspection App"
+page_title: "Jerald Abille | Tenant Exit Inspect App"
 caption: "End-of-lease inspection form and report generation for Emaar Dubai Mall"
 home-image: "emaar.png"
 client:

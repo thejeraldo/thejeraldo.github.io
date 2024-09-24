@@ -2,6 +2,7 @@
 layout: project
 order: 2
 title: "Loke BoogieSpot"
+page_title: "Jerald Abille | Loke"
 caption: "An app that allows restaurants and pubs to promote their business and products"
 home-image: "loke.png"
 client:
